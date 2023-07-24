@@ -17,7 +17,7 @@ const users = [
     { id: 1, username: 'john' },
     { id: 2, username: 'jane' },
     { id: 3, username: 'john' },
-    { id: 4, username: 'adam' }
+    { id: 4, username: 'adam' },
     { id: 4, username: 'adam' }
   ];
 
