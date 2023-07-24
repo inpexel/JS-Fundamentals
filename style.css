@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(12, 6, 16);
+}
+
+#container{
+    width: 230px;
+    /* overflow: scroll; */
+    overflow-x: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    background-color: orange;
+}
+
+.items{
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    /* width: max(45px, 45px); */
+    background-color: red;
+}
